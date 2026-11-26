@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1023902264545",
+    "project_id": "crujedo-firebaseapp",
+    "storage_bucket": "crujedo-firebaseapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023902264545:android:b255c09130bf88b7345ba0",
+        "android_client_info": {
+          "package_name": "com.example.crujedo_firebaseapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeLOEvObEFcZlECEuQZ827QQh-Nt6gh8o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

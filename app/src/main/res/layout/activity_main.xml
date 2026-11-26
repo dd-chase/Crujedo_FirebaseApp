@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0F1115"
+    android:padding="22dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FIREBASE VAULT"
+        android:textColor="#FF2A4B"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.15" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Realtime Data Logger"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@drawable/bg_dark_input"
+        android:hint="Enter primary text..."
+        android:textColor="#FFFFFF"
+        android:textColorHint="#6C7589"
+        android:paddingHorizontal="16dp"
+        android:inputType="text"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/bg_dark_input"
+        android:hint="Enter secondary text..."
+        android:textColor="#FFFFFF"
+        android:textColorHint="#6C7589"
+        android:paddingHorizontal="16dp"
+        android:inputType="text"
+        android:textSize="16sp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="18dp"
+        android:text="SUBMIT RECORD"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.08"
+        app:backgroundTint="#FF2A4B"
+        app:cornerRadius="14dp" />
+
+    <ListView
+        android:id="@+id/listViewEntries"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bg_dark_input"
+        android:padding="12dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10dp"
+        android:clipToPadding="false" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnView"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="VIEW SAVED ENTRIES"
+        android:textColor="#FF2A4B"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.08"
+        app:backgroundTint="#1A1D24"
+        app:strokeColor="#FF2A4B"
+        app:strokeWidth="2dp"
+        app:cornerRadius="14dp" />
+
+</LinearLayout>

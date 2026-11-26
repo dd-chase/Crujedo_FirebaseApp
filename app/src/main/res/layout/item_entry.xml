@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_list_card"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvPrimaryText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Primary Entry"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvSecondaryText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Secondary Entry"
+        android:textColor="#A0A8B8"
+        android:textSize="14sp" />
+
+</LinearLayout>
